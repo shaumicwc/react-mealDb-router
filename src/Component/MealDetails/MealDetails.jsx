@@ -1,6 +1,9 @@
 import React from 'react';
 import { useLoaderData, useNavigate } from 'react-router-dom';
 
+
+///chat gpt//
+
 const MealDetails = () => {
     const detail = useLoaderData();
     const navigate = useNavigate();
